@@ -13,7 +13,7 @@ alias gc="git commit -avm"
 alias gco="git checkout"
 alias gpo="git push origin"
 alias gPo="git pull origin"
-alias py="python"
+alias py="python3"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
