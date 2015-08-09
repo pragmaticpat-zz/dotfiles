@@ -1,4 +1,4 @@
-function parse_git_branch {
+function parse_git_branch {                                                                                                                                                                                                                   
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
   echo "("${ref#refs/heads/}")"
 }
@@ -13,8 +13,11 @@ alias gc="git commit -avm"
 alias gco="git checkout"
 alias gpo="git push origin"
 alias gPo="git pull origin"
+alias py="python"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export PATH=$PATH:/Developer/Android/adt-bundle-mac-x86/sdk/tools
 export PATH=$PATH:/Developer/Android/adt-bundle-mac-x86/sdk/platform-tools
+
+source ~/.profile
