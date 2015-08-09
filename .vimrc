@@ -1,8 +1,8 @@
-execute pathogen#infect()
+execute pathogen#infect()                                                       
 
 colorscheme jellybeans
 set number
-set lines
+set cursorline
 syntax on
 
 set tabstop=2
